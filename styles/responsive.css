@@ -1,0 +1,710 @@
+@media (max-width: 2000px) {
+    .hamburger {
+        display: none;
+    }
+
+    .line {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+    .mobileMenu {
+        display: none;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 1370px) {
+    .cabins__container {
+        padding-left: 15px;
+    }
+
+    .about-gallery__item {
+        grid-column: span 3;
+    }
+
+    .about-gallery__item:nth-child(3) {
+        order: 6;
+    }
+
+    .about-gallery__item:nth-child(4) {
+        grid-column: span 6;
+    }
+
+    .about-gallery__img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .cabins__inner {
+        align-items: center;
+    }
+
+    .cabins__pic {
+        text-align: right;
+
+    }
+
+    .cabins__img {
+        width: 90%;
+    }
+
+    .forest__info {
+        padding: 150px 60px 150px 60px;
+    }
+
+    .contact {
+        padding: 65px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .section-tab {
+        padding-left: 50px;
+    }
+
+    .hut__item-slider,
+    .area__item-slider {
+        max-width: 500px;
+    }
+
+    .section-slider__item img {
+        width: inherit;
+        object-fit: cover;
+    }
+
+}
+
+
+
+@media (max-width: 1080px) {
+    .container-bg {
+        padding-left: 25px;
+    }
+
+    .policies {
+        width: 455px;
+    }
+
+    .hero__book {
+        display: none;
+    }
+
+    .cabins {
+        padding: 90px 0;
+    }
+
+    .forest__inner {
+        display: block;
+    }
+
+    .forest__map::after {
+        height: 450px;
+    }
+
+    .forest__map {
+        height: 450px;
+    }
+
+    .forest__info {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .outside__info {
+        margin-left: 75px;
+        padding-top: 40px;
+    }
+
+    .about-contact__inner {
+        display: block;
+    }
+
+    .about-contact__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .about-form {
+        margin: 0 auto;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .about-contact__btn {
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    .about-contact .contact__info {
+        text-align: center;
+    }
+
+    .about-contact .social {
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width: 960px) {
+    .nav .menu {
+        display: none;
+    }
+
+    .nav+.order__link {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav {
+        margin-left: 24px;
+        margin-right: auto;
+    }
+
+    .mobileMenu {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 99;
+        padding: 15px;
+    }
+
+    .menu__item {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .mobileMenu.active {
+        left: 0;
+    }
+
+    .menu__link {
+        display: block;
+    }
+
+    .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .line:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.active .line:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .footer__inner {
+        display: block;
+
+    }
+
+    .footer {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .footer-left {
+        margin-bottom: 40px;
+    }
+
+    .policies,
+    .cards {
+        margin-left: 0;
+    }
+
+    .policies {
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    .cards,
+    .letter,
+    .footer__text {
+        margin: 0 auto;
+    }
+
+    .letter {
+        margin-bottom: 30px;
+    }
+
+    .footer__text {
+        margin-bottom: 24px;
+    }
+
+    .slider__item {
+        min-height: 60vh;
+    }
+
+    .slider__title {
+        padding: 50px 0 0 10px;
+        margin-bottom: 25px;
+    }
+
+    .title {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+
+    .cabins__video {
+        grid-column: span 3;
+    }
+
+    .cabins__top {
+        margin-bottom: 100px;
+    }
+
+    .contact__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .social {
+        margin: 0 auto;
+    }
+
+    .contact__book {
+        text-align: center;
+    }
+
+    .hut-slider__img {
+        max-width: 100%;
+        object-fit: cover;
+        height: 30vh;
+    }
+
+    .section-tab {
+        padding-top: 0;
+    }
+
+    .hut__item-slider,
+    .area__item-slider {
+        max-width: 400px;
+    }
+
+    .hut-items {
+        padding-top: 100px;
+    }
+
+    .section-tab {
+        padding-left: 24px;
+    }
+
+    .hut__item-title,
+    .area__item-title {
+        margin-bottom: 25px;
+    }
+
+    .tab-menu {
+        margin-bottom: 25px;
+    }
+
+    .hut__item,
+    .area__item {
+        margin-bottom: 150px;
+    }
+
+    .hut__item:nth-child(even) .hut__item-tab {
+        margin-right: 15px;
+    }
+
+    .area__item:nth-child(odd) .area__item-tab .tab__item-text {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .outside__info {
+        margin-left: 40px;
+    }
+
+    .about-gallery {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .outside {
+        padding-top: 20px;
+    }
+
+    .outside__info {
+        max-width: 100%;
+        text-align: center;
+        grid-column: span 2;
+        grid-row-start: -1;
+        margin-left: 0;
+    }
+
+    .outside__text {
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .outside-imgs {
+        grid-column: span 2;
+    }
+
+    .about-gallery__text {
+        padding: 60px 40px;
+    }
+
+    .about-gallery__inner {
+        gap: 12px;
+    }
+
+
+}
+
+
+@media (max-width: 787px) {
+    .slider__info {
+        margin-right: 20px;
+        margin-left: 40px;
+        padding-left: 15px;
+    }
+
+    .title {
+        font-size: 46px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .slider__text {
+        text-align: center;
+        margin-right: 0;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 auto;
+    }
+
+    .cabins__container {
+        padding-left: 0;
+    }
+
+    .cabins__inner {
+        flex-direction: column-reverse;
+    }
+
+    .cabins__img {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .facilities__item {
+        grid-column: span 4;
+    }
+
+    .facilities {
+        padding: 100px 0;
+    }
+
+    .about-more__pic {
+        height: 500px;
+    }
+
+
+    .hut__item-slider,
+    .area__item-slider {
+        grid-column: span 2;
+
+    }
+
+    .hut__item-tab,
+    .area__item-tab {
+        grid-row-start: -1;
+        grid-column: span 2;
+    }
+
+
+    .hut__item-slider,
+    .area__item-slider {
+        max-width: 730px;
+    }
+
+    .tab__item-text {
+        margin-bottom: 35px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .hut__item-tab,
+    .area__item-tab {
+        padding-left: 0;
+    }
+
+    .outside-imgs {
+        height: 350px;
+    }
+
+    .outside__inner {
+        margin-bottom: 75px;
+    }
+
+    .outside__desc {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .about-gallery__item {
+        grid-column: span 6;
+        height: 327px;
+    }
+
+    .about-gallery__text {
+        text-align: center;
+        height: 327px;
+    }
+
+    .about-decoration {
+        margin-bottom: 100px;
+    }
+
+
+}
+
+@media (max-width: 680px) {
+    .about-form {
+        width: 100%;
+    }
+
+    .about-contact__item-sm {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .cabins__video {
+        grid-column: span 6;
+    }
+
+    .about-more__inner {
+        display: block;
+    }
+
+    .about-more__pic {
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .policies {
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .policy__item {
+        margin-bottom: 15px;
+    }
+
+    .letter {
+        width: 100%;
+    }
+
+    .footer__text {
+        max-width: 100%;
+    }
+
+    .cards {
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .slider__text {
+        font-size: 16px;
+    }
+
+    .slider__item {
+        min-height: 50vh;
+    }
+
+    .slider .slick-dots {
+        top: 40px;
+        left: 20px;
+    }
+
+    .slider .slick-dots button {
+        height: 45px;
+    }
+
+    .cabins__info {
+        padding: 0 10px;
+    }
+
+    .cabins__title {
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .cabins__top {
+        margin-bottom: 90px;
+    }
+
+    .forest__info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .forest__title {
+        margin-bottom: 30px
+    }
+
+    .facilities__item {
+        grid-column: span 6;
+    }
+
+    .facilities {
+        padding: 50px 0;
+    }
+
+    .facilities__title {
+        margin-bottom: 70px;
+    }
+
+    .about-more__link {
+        padding: 48px 8px;
+        top: calc(50% - 60px);
+        left: calc(50% - 55px);
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .intro__title {
+        width: 100%;
+        left: 0;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .about-contact__form {
+        gap: 12px;
+    }
+}
+
+
+@media (max-width: 420px) {
+
+
+    .contact .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .contact__book-pic {
+        width: 100%;
+    }
+
+    .contact__book-btn {
+        width: 65.5%;
+        padding: 36px 20px;
+    }
+
+    .section-slider .slick-arrow {
+        width: 25px;
+        bottom: -47px;
+    }
+
+    .section-slider .slick-arrow.slick-next {
+        left: 50px;
+        bottom: -49px;
+
+    }
+
+    .slider__progressive-bar {
+        max-width: 120px;
+    }
+
+    .hut__item,
+    .area__item {
+        margin-bottom: 120px;
+    }
+
+    .section-item {
+        margin-bottom: 100px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .map__inner {
+        height: 400px;
+    }
+
+
+    .accordion-item__trigger {
+        padding: 20px 20px;
+        font-size: 14px;
+    }
+
+    .about__btns {
+        display: block;
+        margin-top: 60px;
+    }
+
+    .intro__title .intro__btn {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .outside__desc {
+        margin-bottom: 65px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .about-gallery__text {
+        padding: 45px 30px;
+    }
+
+    .about-decoration {
+        margin-bottom: 75px;
+    }
+}

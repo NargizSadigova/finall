@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Glass Huts | Area</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <!-- fonts start -->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Mulish&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- fonts end -->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container-bg">
+            <div class="header__inner">
+                <a href="/" class="logo__link">
+                    <img src="./images/icon/logo.svg" alt="logo" class="logo__img">
+                </a>
+
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__link ">
+                                Home
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="hut.html" class="menu__link">
+                                the hut
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link menu__link_active">
+                                The area
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                booking
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about-us.html" class="menu__link">
+                                about us
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="faq.html" class="menu__link">
+                                faq
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button style="background: url('./images/icon/denmark.svg');" onclick="myFunction()" class="dropbtn" ></button>
+                        <ul id="myDropdown" class="dropdown-content">
+                            <li>
+                                <a href="#" class="lang__link germany"><img src="./images/icon/germany.svg" alt="germany" class="germany__img lang__img"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="lang__link english"><img src="./images/icon/united-kingdom.svg" alt="united-kingdom" class="united-kingdom__img lang__img"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="lang__link dutch"><img src="./images/icon/denmark.svg" alt="denmark" class="denmark__img lang__img"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <a href="#" class="order__link button">
+                    Book Now
+                </a>
+
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+
+                <ul class="mobileMenu">
+                    <li class="menu__item">
+                        <a href="index.html" class="menu__link ">
+                            Home
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="hut.html" class="menu__link">
+                            the hut
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link menu__link_active">
+                            The area
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            booking
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="about-us.html" class="menu__link">
+                            about us
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="faq.html" class="menu__link">
+                            faq
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="order__link button">
+                            Book Now
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <section class="area__intro">
+            <div class="intro__title">
+                <h1 class="title">The Area</h1>
+                <a href="https://www.google.com/maps/place/4953+Vesterborg,+%D0%94%D0%B0%D0%BD%D0%B8%D1%8F/@54.8675503,11.237435,12z/data=!3m1!4b1!4m5!3m4!1s0x47ad568afb8a7b8b:0x2b0ef19488050ea5!8m2!3d54.856686!4d11.271945"  class="area__link" target="_blank">Vesterborg, Denmark</a>
+                <a href="#" class="intro__btn"><span>get directions</span></a>
+            </div>
+           
+            <div class="slider__container">
+                <div class="area-slider">
+                    <div class="area-slider__item ">
+                        <img src="./images/area-bg-01.jpg" alt="background" class="area-slider__img">
+                        <div class="slider__overlay area__overlay"></div>
+                    </div>
+                    <div class="area-slider__item ">
+                        <img src="./images/area-bg-02.jpg" alt="background" class="area-slider__img">
+                        <div class="slider__overlay area__overlay"></div>
+                    </div>
+                    <div class="area-slider__item ">
+                        <img src="./images/area-bg-03.jpg" alt="background" class="area-slider__img">
+                        <div class="slider__overlay area__overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section class="vesterborg">
+            <div class="container">
+                <div class="vesterborg__inner">
+
+                     <div class="vesterborg-slider">
+                        <div class="section-slider vesterborg__slider">
+                            <div class="section-slider__item">
+                                <img src="./images/vesterborg-01.jpg" alt="vesterborg">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-01.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-02.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-03.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-04.jpg" alt="activities">
+                            </div>
+                        </div>
+                        <div class="slider__progressive-bar">
+                            <p class="counter__text">
+                                0<span class="counter ">1</span>
+                            </p>
+                           
+                            <div class="progressive-bar">
+                                <div class="bar">
+
+                                </div>
+                            </div>
+                            <p class="counter__text">
+                                05
+                            </p>
+                        </div>
+                    </div> 
+
+                    <div class="vesterborg__info">
+                        <h2 class="section-title vesterborg__title">Vesterborg</h2>
+                        <p class="vesterborg__subtitle">Vesterborg is a peaceful retreat where nature meets modern design.</p>
+                        <p class="tab__item-text">Løvtag's cabins—Et, Ro, and Ly—offer cozy stays with double beds, small kitchens, and outdoor showers. Perched nine meters above the ground, each cabin features a rooftop terrace with stunning forest views.
+
+                            Explore nearby trails, lakes, and hidden forest spots for a serene and unforgettable experience.</p>
+                    </div>
+                    
+                    <div class="vesterborg-map">
+                        <h3 class="vestenborg-map__title section-title">
+                            Discover the Area
+                        </h3>
+                        <img src="./images/icon/map-area.svg" alt="map illustration" class="vesterborg-map__img">
+                    </div>
+                    </div>
+                    </section> 
+                    
+                    <section class="activities">
+                        <div class="container">
+                            <h2 class="activities__title section-title">Adventures Await</h2>
+                    
+                            <div class="area__item section-item">
+                                <div class="area__item-slider section__item-slider1">
+                                    <div class="section-slider section-slider1">
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-01.jpg" alt="dining and shopping activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-02.jpg" alt="exploring boutiques">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-03.jpg" alt="local attractions">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-04.jpg" alt="cultural experiences">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/vesterborg-01.jpg" alt="scenic views">
+                                        </div>
+                                    </div>
+                                    <div class="slider__progressive-bar">
+                                        <p class="counter__text">
+                                            0<span class="counter ">1</span>
+                                        </p>
+                                       
+                                        <div class="progressive-bar">
+                                            <div class="bar">
+                    
+                                            </div>
+                                        </div>
+                                        <p class="counter__text">
+                                            05
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="area__item-tab section-tab">
+                                    <h2 class="area__item-title section-title">Dining & Shopping</h2>
+                                    <div class="area__item-tab__inner">
+                                        <nav class="tab-menu">
+                                            <div class="tab-menu__item tab1 tab1_active" id="menu1Tab1" onClick="JavaScript:selectTab(1);">Local Cuisine</div>
+                                            <div class="tab-menu__item tab1" id="menu1Tab2" onClick="JavaScript:selectTab(2);">Boutique Stores</div>
+                                        </nav>
+                                        <p class="tab__item-text" id="tab1Content1">
+                                            Discover the best local restaurants offering delicious meals inspired by Danish traditions. Enjoy a cozy atmosphere and farm-to-table experiences.
+                                        </p>
+                                        <p class="tab__item-text" id="tab1Content2">
+                                            Explore charming shops offering handmade crafts, unique souvenirs, and sustainable products that reflect the local culture and artistry.   
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="area__item section-item">
+                                <div class="area__item-slider section__item-slider2">
+                                    <div class="section-slider section-slider2">
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-02.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-01.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-03.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-04.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/vesterborg-01.jpg" alt="activities">
+                                        </div>
+                                    </div>
+                                    <div class="slider__progressive-bar">
+                                        <p class="counter__text">
+                                            0<span class="counter ">1</span>
+                                        </p>
+                                       
+                                        <div class="progressive-bar">
+                                            <div class="bar">
+                    
+                                            </div>
+                                        </div>
+                                        <p class="counter__text">
+                                            05
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="area__item-tab section-tab">
+                                    <h2 class="area___item-title section-title">Nature Adventures</h2>
+                                    <div class="area__item-tab__inner">
+                                        <nav class="tab-menu">
+                                            <div class="tab-menu__item tab2  tab2_active" id="menu2Tab1" onClick="JavaScript:selectTab2(1);">Hiking Trails</div>
+                                            <div class="tab-menu__item tab2" id="menu2Tab2" onClick="JavaScript:selectTab2(2);">Scenic Views</div>
+                                        </nav>
+                                        <p class="tab__item-text" id="tab2Content1">
+                                            Take a walk through lush forests and serene landscapes, perfect for connecting with nature and enjoying peaceful moments away from city life.
+                                        </p>
+                                        <p class="tab__item-text" id="tab2Content2">
+                                            Enjoy breathtaking vistas from elevated viewpoints, offering spectacular panoramas of the surrounding countryside and beyond.   
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="area__item section-item">
+                                <div class="area__item-slider section__item-slider3">
+                                    <div class="section-slider section-slider3">
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-03.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-02.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-01.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-04.jpg" alt="activities">
+                                        </div>
+                                        <div class="section-slider__item">
+                                            <img src="./images/vesterborg-01.jpg" alt="activities">
+                                        </div>
+                                    </div>
+                                    <div class="slider__progressive-bar">
+                                        <p class="counter__text">
+                                            0<span class="counter ">1</span>
+                                        </p>
+                                       
+                                        <div class="progressive-bar">
+                                            <div class="bar">
+                    
+                                            </div>
+                                        </div>
+                                        <p class="counter__text">
+                                            05
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="area__item-tab section-tab">
+                                    <h2 class="area__item-title section-title">Scenic Drives</h2>
+                                    <div class="area__item-tab__inner">
+                                        <nav class="tab-menu">
+                                            <div class="tab-menu__item tab3 tab3_active" id="menu3Tab1" onClick="JavaScript:selectTab3(1);">Coastal Routes</div>
+                                            <div class="tab-menu__item tab3" id="menu3Tab2" onClick="JavaScript:selectTab3(2);">Countryside Roads</div>
+                                        </nav>
+                                        <p class="tab__item-text" id="tab3Content1">
+                                            Enjoy a leisurely drive along stunning coastlines, where the ocean meets picturesque villages and sandy beaches.
+                                        </p>
+                                        <p class="tab__item-text" id="tab3Content2">
+                                            Wind through charming rural landscapes, passing rolling hills, historic sites, and vibrant fields along the way.   
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="area__item section-item">
+                                <div class="area__item-slider section__item-slider4">
+                                    <div class="section-slider section-slider4">
+                                        <div class="section-slider__item">
+                                            <img src="./images/activities-04.jpg" alt="activities">
+                        <div class="slider__progressive-bar">
+                            <p class="counter__text">
+                                0<span class="counter ">1</span>
+                            </p>
+                           
+                            <div class="progressive-bar">
+                                <div class="bar">
+
+                                </div>
+                            </div>
+                            <p class="counter__text">
+                                05
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area__item-tab section-tab">
+                        <h2 class="area___item-title section-title">Experiences in nature</h2>
+                        <div class="area__item-tab__inner">
+                            <nav class="tab-menu">
+                                <div class="tab-menu__item tab2  tab2_active" id="menu2Tab1" onClick="JavaScript:selectTab2(1);">Lorem Impus</div>
+                                <div class="tab-menu__item tab2" id="menu2Tab2" onClick="JavaScript:selectTab2(2);">Lorem Impus</div>
+                            </nav>
+                            <p class="tab__item-text" id="tab2Content1">
+                                Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.
+                            </p>
+                            <p class="tab__item-text" id="tab2Content2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio sapiente exercitationem consectetur velit eveniet ratione a eaque sed. Quibusdam placeat odit ab debitis vitae delectus! Eum soluta libero ex quos ipsum, ipsa quis sunt id quasi cum voluptates iste!   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="area__item section-item">
+                    <div class="area__item-slider section__item-slider3">
+                        <div class="section-slider section-slider3">
+                            <div class="section-slider__item">
+                                <img src="./images/activities-03.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-02.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-01.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-04.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/vesterborg-01.jpg" alt="activities">
+                            </div>
+                        </div>
+                        <div class="slider__progressive-bar">
+                            <p class="counter__text">
+                                0<span class="counter ">1</span>
+                            </p>
+                           
+                            <div class="progressive-bar">
+                                <div class="bar">
+
+                                </div>
+                            </div>
+                            <p class="counter__text">
+                                05
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area__item-tab section-tab">
+                        <h2 class="area__item-title section-title">Go for a drive</h2>
+                        <div class="area__item-tab__inner">
+                            <nav class="tab-menu">
+                                <div class="tab-menu__item tab3 tab3_active" id="menu3Tab1" onClick="JavaScript:selectTab3(1);">Lorem Impus</div>
+                                <div class="tab-menu__item tab3" id="menu3Tab2" onClick="JavaScript:selectTab3(2);">Lorem Impus</div>
+                            </nav>
+                            <p class="tab__item-text" id="tab3Content1">
+                                Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. 
+                            </p>
+                            <p class="tab__item-text" id="tab3Content2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio sapiente exercitationem consectetur velit eveniet ratione a eaque sed. Quibusdam placeat odit ab debitis vitae delectus! Eum soluta libero ex quos ipsum, ipsa quis sunt id quasi cum voluptates iste!   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="area__item section-item">
+                    <div class="area__item-slider section__item-slider4">
+                        <div class="section-slider section-slider4">
+                            <div class="section-slider__item">
+                                <img src="./images/activities-04.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-02.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-03.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/activities-01.jpg" alt="activities">
+                            </div>
+                            <div class="section-slider__item">
+                                <img src="./images/vesterborg-01.jpg" alt="activities">
+                            </div>
+                        </div>
+                        <div class="slider__progressive-bar">
+                            <p class="counter__text">
+                                0<span class="counter ">1</span>
+                            </p>
+                           
+                            <div class="progressive-bar">
+                                <div class="bar">
+
+                                </div>
+                            </div>
+                            <p class="counter__text">
+                                05
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area__item-tab section-tab">
+                        <h2 class="area__item-title section-title">Small-town charm</h2>
+                        <div class="area__item-tab__inner">
+                            <nav class="tab-menu">
+                                <div class="tab-menu__item tab4 tab4_active" id="menu4Tab1" onClick="JavaScript:selectTab4(1);">Lorem Impus</div>
+                                <div class="tab-menu__item tab4" id="menu4Tab2" onClick="JavaScript:selectTab4(2);">Lorem Impus</div>
+                            </nav>
+                            <p class="tab__item-text" id="tab4Content1">
+                                Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. 
+                            </p>
+                            <p class="tab__item-text" id="tab4Content2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio sapiente exercitationem consectetur velit eveniet ratione a eaque sed. Quibusdam placeat odit ab debitis vitae delectus! Eum soluta libero ex quos ipsum, ipsa quis sunt id quasi cum voluptates iste!   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="map">
+            <div class="slider__container">
+                <div class="map__inner">
+                    <div class="area-map">
+                        <a target="_blank" href="https://www.google.com/maps/place/8320+Moseg%C3%A5rd+Huse,+Danimarka/@56.0836652,10.2026013,15z/data=!3m1!4b1!4m5!3m4!1s0x464c4105fdfe0bcd:0x2c71f7791970b4c7!8m2!3d56.083654!4d10.2113561" class="section__map-link">We Are Here</a>
+                        <a target="_blank" href="https://www.google.com/maps/place/8320+Moseg%C3%A5rd+Huse,+Danimarka/@56.0836652,10.2026013,15z/data=!3m1!4b1!4m5!3m4!1s0x464c4105fdfe0bcd:0x2c71f7791970b4c7!8m2!3d56.083654!4d10.2113561" class="overlay"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer-left">
+                    <p class="footer__title">Newsletter</p>
+                    <form action="#" class="letter">
+                        <input class="letter__inp" type="email" placeholder="Email Adrdess">
+                    </form>
+                    <p class="footer__text">
+                        Sign up to our newsletter for special things and receive 10% off your next order.
+                    </p>
+                    <p class="copyright">© 2021 The Glass Huts</p>
+                </div>
+                <div class="footer-right">
+                    <ul class="policies">
+                        <li class="policy__item">
+                            <a href="#" class="policy__link">TERMS AND CONDITIONS</a>
+                        </li>
+                        <li class="policy__item">
+                            <a href="#" class="policy__link">CENCELLATION POLICY</a>
+                        </li>
+                        <li class="policy__item">
+                            <a href="#" class="policy__link">PRIVACY POLICY</a>
+                        </li>
+                    </ul>
+                    <div class="cards">
+                        <img src="./images/icon/paypal.svg" alt="paypal" class="card__img">
+                        <img src="./images/icon/mastercard.svg" alt="mastercard" class="card__img">
+                        <img src="./images/icon/visa.svg" alt="visa" class="card__img">
+                        <img src="./images/icon/bank.svg" alt="bank" class="card__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
