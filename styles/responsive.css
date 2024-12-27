@@ -1,4 +1,29 @@
-@media (max-width: 2000px) {
+@media (max-width: 2000px) and (min-width:1280px){
+    .forest__inner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .forest__info {
+        padding: 150px 130px 150px 110px;
+    }
+
+    .forest__text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .forest__link {
+        font-size: 16px;
+    }
+
+    .forest__map {
+        height: 650px;
+    }
+
+    .forest__map::after {
+        height: 650px;
+    }
     .hamburger {
         display: none;
     }
@@ -20,7 +45,40 @@
 
 }
 
+.forest {
+    background: #E9ECE0;
+    padding: 20px;
+}
 
+.forest__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.forest__info {
+    padding: 50px 20px;
+}
+
+.forest__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.forest__link {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.forest__map {
+    height: 300px;
+}
+
+.forest__map::after {
+    height: 300px;
+}
 
 
 @media (max-width: 1370px) {
@@ -45,6 +103,35 @@
         height: 100%;
     }
 }
+/* Tablet */
+@media (min-width: 992px) and (max-width: 1279px) {
+    .forest__inner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .forest__info {
+        padding: 80px 50px;
+    }
+
+    .forest__text {
+        font-size: 15px;
+    }
+
+    .forest__link {
+        font-size: 15px;
+    }
+
+    .forest__map {
+        height: 400px;
+    }
+
+    .forest__map::after {
+        height: 400px;
+    }
+}
+
+
 
 @media (max-width: 1200px) {
 
@@ -385,6 +472,34 @@
 
 
 }
+
+/* Telephone */
+@media (max-width: 991px) and (min-width:300px){
+    .forest__inner {
+        grid-template-columns: 1fr;
+    }
+
+    .forest__info {
+        padding: 30px 15px;
+    }
+
+    .forest__text {
+        font-size: 13px;
+    }
+
+    .forest__link {
+        font-size: 13px;
+    }
+
+    .forest__map {
+        height: 250px;
+    }
+
+    .forest__map::after {
+        height: 250px;
+    }
+}
+
 
 
 @media (max-width: 787px) {

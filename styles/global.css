@@ -1,6 +1,6 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Handlee', cursive; */
-/* font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .container
 {
@@ -18,7 +18,7 @@
 
 .button
 {
-    font-family: 'DIN';
+    font-family: "Mulish", serif;
     text-decoration: none;
     background: #5B6460;
     font-weight: 300;
@@ -43,7 +43,7 @@
     text-align: center;
     padding: 14px 0;
     border: 0.7px solid #FFFFFF;
-    font-family: 'DIN';
+    font-family: "Mulish", serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 28px;
@@ -174,7 +174,9 @@
 .section-item
 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'area__item, ';
     margin-bottom: 223px;
 }
 
@@ -256,7 +258,7 @@
 }
 
 
-
+/* 
 .section-slider .slick-arrow.slick-disabled{
     opacity: 0.5;
     cursor: auto;
@@ -336,4 +338,4 @@
 
 
 
-/* slider && tabs end */
+slider && tabs end */
